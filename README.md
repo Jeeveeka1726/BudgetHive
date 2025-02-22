@@ -1,24 +1,15 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+### *BudgetHive – AI-Powered Financial Management for Businesses*  
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+*BudgetHive* is an intelligent financial management platform designed to help businesses track expenses, manage budgets, and gain actionable insights through AI-powered automation. With a seamless user experience, BudgetHive simplifies expense tracking and provides personalized recommendations to optimize spending.  
 
-### Make sure to create a `.env` file with following variables -
+### *Key Features:*  
+- *Landing Page & Secure Login* – Businesses can access their accounts and manage multiple financial records.  
+- *Multi-Account & Transaction Management* – Businesses can create multiple accounts and log transactions efficiently.  
+- *AI-Based Receipt Scanning* – Automatically extracts details like date, amount, and description from scanned receipts.  
+- *Recurring Transactions* – Easily manage and track recurring expenses.  
+- *Interactive Graphs & Budget Tracking* – Visual representation of financial data for better insights.  
+- *Automated Budget Alerts* – Sends email notifications when expenses approach the set budget.  
+- *Monthly Financial Reports* – Auto-generated reports sent via email, categorizing transactions and highlighting spending trends.  
+- *AI-Powered Insights* – Personalized recommendations on cost-cutting opportunities and spending optimization.  
 
-```
-DATABASE_URL=
-DIRECT_URL=
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-
-GEMINI_API_KEY=
-
-RESEND_API_KEY=
-
-ARCJET_KEY=
-```
+With *BudgetHive*, businesses can streamline financial management, reduce unnecessary expenses, and make data-driven decisions for sustainable growth.  
