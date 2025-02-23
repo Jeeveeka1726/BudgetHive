@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ["via.placeholder.com"],
     remotePatterns: [
       {
         protocol: "https",
         hostname: "randomuser.me",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.rareblocks.xyz",
       },
     ],
   },
@@ -16,4 +21,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default nextConfig; // ✅ Correct for ESM (.mjs)

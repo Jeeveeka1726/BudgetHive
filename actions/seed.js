@@ -3,28 +3,28 @@
 import { db } from "@/lib/prisma";
 import { subDays } from "date-fns";
 
-const ACCOUNT_ID = "account-id";
-const USER_ID = "user-id";
+const ACCOUNT_ID = "9f3bc268-b111-4a35-8f85-7ced1ea2414c";
+const USER_ID = "169e6672-a2fd-46cc-b83a-0ecae50e3a46";
 
 // Categories with their typical amount ranges
 const CATEGORIES = {
   INCOME: [
-    { name: "salary", range: [5000, 8000] },
-    { name: "freelance", range: [1000, 3000] },
-    { name: "investments", range: [500, 2000] },
-    { name: "other-income", range: [100, 1000] },
+    { name: "Product Sales Revenue", range: [5000, 8000] },
+    { name: "Investment & Grants", range: [1000, 3000] },
+    { name: "Service Revenue", range: [500, 2000] },
+    { name: "Other-income", range: [100, 1000] },
   ],
   EXPENSE: [
-    { name: "housing", range: [1000, 2000] },
-    { name: "transportation", range: [100, 500] },
-    { name: "groceries", range: [200, 600] },
-    { name: "utilities", range: [100, 300] },
-    { name: "entertainment", range: [50, 200] },
-    { name: "food", range: [50, 150] },
-    { name: "shopping", range: [100, 500] },
-    { name: "healthcare", range: [100, 1000] },
-    { name: "education", range: [200, 1000] },
-    { name: "travel", range: [500, 2000] },
+    { name: "Payroll & Salaries", range: [1000, 2000] },
+    { name: "Rent & Utilities", range: [100, 500] },
+    { name: "Inventory & Supplies", range: [200, 600] },
+    { name: "Marketing & Advertising", range: [100, 300] },
+    { name: "Software & Subscriptions", range: [50, 200] },
+    { name: "Equipment & Maintenance", range: [50, 150] },
+    { name: "Shipping & Logistics", range: [100, 500] },
+    { name: "Business Travel & Entertainment", range: [100, 1000] },
+    { name: "Legal, Accounting & Compliance", range: [200, 1000] },
+    { name: "Loan Repayments & Interest", range: [500, 2000] },
   ],
 };
 

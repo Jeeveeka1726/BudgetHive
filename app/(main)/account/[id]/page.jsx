@@ -4,6 +4,7 @@ import { BarLoader } from "react-spinners";
 import { TransactionTable } from "../_components/transaction-table";
 import { notFound } from "next/navigation";
 import { AccountChart } from "../_components/account-chart";
+import Header from "../../dashboard/_components/header";
 
 export default async function AccountPage({ params }) {
   const accountData = await getAccountWithTransactions(params.id);
@@ -17,6 +18,7 @@ export default async function AccountPage({ params }) {
   return (
     <div className="space-y-8 px-5">
       <div className="flex gap-4 items-end justify-between">
+      <Header/>
         <div>
           <h1 className="text-5xl sm:text-6xl font-bold tracking-tight gradient-title capitalize">
             {account.name}
